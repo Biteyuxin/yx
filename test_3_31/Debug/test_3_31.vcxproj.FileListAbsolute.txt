@@ -1,1 +1,2 @@
 D:\C程序开发\C项目\比特\test_3_31\Debug\test_3_31.exe
+D:\C程序开发\C项目\比特\yx\test_3_31\Debug\test_3_31.exe
