@@ -61,11 +61,11 @@
 //3. 修饰函数
 
 #include <stdio.h>
-//
+
 //void test()
 //{
 //  //修饰局部变量
-//	static int a = 1;
+//	int a = 1;
 //	a++;
 //	printf("%d ", a);
 //}
@@ -92,15 +92,15 @@
 //修饰全局变量
 
 //声明外部符号
-//extern int g_val;
-//
-//int main()
-//{
-//	printf("%d\n", g_val);
-//
-//	return 0;
-//}
-//
+extern int g_val;
+
+int main()
+{
+	printf("%d\n", g_val);
+
+	return 0;
+}
+
 
 //static 修饰函数
 
@@ -116,16 +116,16 @@
 //
 //	return 0;
 //}
-
+//
 //
 //int main()
 //{
-//	//寄存器变量
+//	寄存器变量
 //	register int num = 3;//建议: 3存放在寄存中
 //
 //	return 0;
 //}
-//
+
 
 //define定义标识符常量
 //#define NUM 100
